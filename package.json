@@ -1,0 +1,17 @@
+{
+  "name": "ui-automator",
+  "version": "1.0.0",
+  "description": "A universal web user interface automation tool",
+  "main": "dist/main.js",
+  "scripts": {
+    "start": "tsc && node dist/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Caius Citiriga <nbkmaxine@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.13.5",
+    "puppeteer": "^24.3.0",
+    "typescript": "^5.7.3"
+  }
+}
